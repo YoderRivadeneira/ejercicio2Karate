@@ -33,11 +33,15 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gradle-
 
-      # 4. Ejecutar las pruebas de Karate
+      # 4. Otorgar permisos de ejecución al script de Gradle
+      - name: Grant execute permission for Gradlew
+        run: chmod +x ./gradlew
+
+      # 5. Ejecutar las pruebas de Karate
       - name: Run Karate Tests
         run: ./gradlew clean test
 
-      # 5. Subir reportes de Karate
+      # 6. Subir reportes de Karate
       - name: Upload Karate Reports
         uses: actions/upload-artifact@v3
         with:

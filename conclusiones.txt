@@ -1,0 +1,55 @@
+# Conclusiones del Ejercicio: Pruebas E2E con Karate para API de PetStore
+
+## Hallazgos
+
+1. **Pruebas Implementadas:**
+   - Se implementaron 5 pruebas funcionales clave para la API de PetStore:
+     - **Añadir una mascota a la tienda:** La prueba más larga (2.754s), ya que incluye la creación de un nuevo registro en la API.
+     - **Consultar la mascota ingresada previamente (Búsqueda por ID):** Consulta eficiente con una duración de 0.657s.
+     - **Actualizar el nombre de la mascota y el estatus de la mascota a “sold”:** Prueba rápida con un tiempo de 0.638s.
+     - **Consultar la mascota modificada por estatus (Búsqueda por estatus):** Ejecución en 0.613s.
+     - **Eliminar la mascota creada durante el test (Limpieza):** Proceso de limpieza con 1.101s.
+
+2. **Ejecución General:**
+   - Total de pruebas: **5**
+   - Fallos: **0**
+   - Duración total: **5.763s**
+   - Resultado: **100% de éxito**
+
+3. **Desempeño:**
+   - Las pruebas son eficientes y rápidas, con la mayoría ejecutándose en menos de 1 segundo.
+   - La prueba de creación de una mascota consume más tiempo debido a la interacción con la API para insertar datos.
+
+4. **Reportes:**
+   - Los reportes de Karate se generaron exitosamente en `build/karate-reports/karate-summary.html`.
+   - Los reportes estándar de Gradle también están disponibles en `build/reports/tests/test/index.html`.
+   - Los artefactos fueron cargados y están disponibles en GitHub Actions como parte del proceso CI/CD.
+
+## Conclusiones
+
+1. **Eficiencia y Confiabilidad:**
+   - Las pruebas implementadas cubren el flujo completo de creación, consulta, actualización, búsqueda por estatus y limpieza de registros.
+   - La cobertura del flujo garantiza que los cambios en los datos sean verificados en cada etapa.
+
+2. **Procesos Automatizados:**
+   - Se logró integrar las pruebas con GitHub Actions para habilitar un flujo CI/CD.
+   - La ejecución automática de pruebas garantiza que los cambios en el código sean validados continuamente.
+
+3. **Limpieza de Datos:**
+   - La prueba de limpieza asegura que no queden datos residuales en la API después de la ejecución, manteniendo un entorno limpio para futuras ejecuciones.
+
+4. **Áreas de Mejora:**
+   - Integrar reportes adicionales como Allure.
+
+
+
+# Resumen de Resultados
+
+| **Prueba** | **Descripción** | **Tiempo (s)** | **Resultado** |
+|------------|-----------------|----------------|---------------|
+| Añadir una mascota a la tienda | Crear una nueva mascota | 2.754 | ✅ Exitosa |
+| Consultar la mascota por ID | Búsqueda por ID | 0.657 | ✅ Exitosa |
+| Actualizar la mascota | Cambiar nombre y estatus | 0.638 | ✅ Exitosa |
+| Consultar por estatus | Buscar por status "sold" | 0.613 | ✅ Exitosa |
+| Eliminar mascota creada | Limpieza final | 1.101 | ✅ Exitosa |
+

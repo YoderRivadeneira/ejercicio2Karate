@@ -28,7 +28,14 @@ git clone https://github.com/YoderRivadeneira/ejercicio2Karate
 cd ejercicio2Karate
 
 ```
+Configura el Gradle Wrapper a la versión 7.6.1:
 
+Nota: Asegurate de ejecutar este comando en la ruta del proyecto, es decir en la terminal debes ubicarte en la ruta del proyecto.
+
+
+```bash
+   ./gradlew wrapper --gradle-version 7.6.1
+```
 
 2️⃣ Verificar las dependencias
 Ejecuta el siguiente comando para instalar las dependencias y verificar la configuración:

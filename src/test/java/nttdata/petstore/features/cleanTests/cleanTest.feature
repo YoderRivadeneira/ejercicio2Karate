@@ -1,7 +1,7 @@
 Feature: Limpiar los registros insertados durante el test
 
   @testQA
-  Scenario: Eliminar la mascota creada creada para los tests
+  Scenario: Eliminar la mascota creada para los tests
 
     * def createdPet = read('file:build/src/test/java/nttdata/petstore/data/createdPetResponse.json')
     * def idMascota = createdPet.id

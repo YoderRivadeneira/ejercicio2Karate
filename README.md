@@ -1,4 +1,4 @@
-# 🐾 Ejercicio2Karate - API de PetStore 
+# 🐾 Ejercicio2Karate - API de PetStore
 
 Este proyecto realiza pruebas funcionales automatizadas de la API [Swagger Petstore](https://petstore.swagger.io/). El flujo implementado cubre las siguientes funcionalidades:
 
@@ -64,15 +64,17 @@ src/
 │   └── java/
 │       └── nttdata/
 │           └── petstore/
-│               └── KarateConfig.java         # Configuración base de Karate
-├── test/
+│               └── Main.java         # Clase principal de main
+├── test/  
 │   └── java/
 │       └── nttdata/
 │           └── petstore/
 │               ├── features/                # Escenarios de prueba escritos en Karate
 │               ├── data/                    # Datos de prueba utilizados en las pruebas
 │               ├── karateRunner.java        # Runner para ejecutar las pruebas
-└── build.gradle                              # Configuración del proyecto con dependencias
+│   └── resources/
+│       └── karate-config.js/                # Configuraciones globales para karate
+└── build.gradle                             # Configuración del proyecto con dependencias
 
 
 ```

@@ -130,6 +130,9 @@ Respuestas y errores encontrados.
 
 ![image](https://github.com/user-attachments/assets/fe8952e4-5394-4ccb-842d-6b85db0e2607)
 
+### LIMPIEZA DE DATOS INSERTADOS DURANTE EL TEST
+
+![image](https://github.com/user-attachments/assets/6266dc41-5b35-44f1-81b7-e6cd13f5101d)
 
 Reporte estándar de Gradle
 

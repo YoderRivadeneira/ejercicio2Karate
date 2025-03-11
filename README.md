@@ -159,7 +159,9 @@ El proyecto está configurado con GitHub Actions para ejecutar automáticamente 
 
 ![image](https://github.com/user-attachments/assets/b8bc23bc-8456-4285-9207-65ec4f35e820)
 
+![image](https://github.com/user-attachments/assets/4aeeb3c5-3ba9-4391-86b3-bbaedd1dfe9b)
 
+![image](https://github.com/user-attachments/assets/dcd31476-f884-4ad5-84d8-b7e82661cf12)
 
 
 

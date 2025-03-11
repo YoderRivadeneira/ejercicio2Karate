@@ -1,3 +1,7 @@
+Nota: Para visualizar de manera correcta todas las imágenes de este instructivo se recomienda estar logeado en github, ya que si se visualiza el readme sin estar logeado en git, puede ser que las imágenes no se visualicen correctamente.
+
+
+
 # 🐾 Ejercicio2Karate - API de PetStore
 
 Este proyecto realiza pruebas funcionales automatizadas de la API [Swagger Petstore](https://petstore.swagger.io/). El flujo implementado cubre las siguientes funcionalidades:

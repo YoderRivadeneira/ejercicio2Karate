@@ -109,12 +109,6 @@ Este archivo incluye:
 ```bash
 Detalles de cada escenario ejecutado.
 
-## AGREGAR UNA NUEVA MASCOTA
-
-![image](https://github.com/user-attachments/assets/abb04510-f6a7-4a48-a89c-9b941c73eea1)
-
-
-
 ![image](https://github.com/user-attachments/assets/37a72fea-78c9-4543-964d-d22b4c787cd3)
 
 Tiempo de ejecución de cada paso.

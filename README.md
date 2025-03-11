@@ -118,6 +118,18 @@ Respuestas y errores encontrados.
 
 ![image](https://github.com/user-attachments/assets/abb04510-f6a7-4a48-a89c-9b941c73eea1)
 
+### BUSCAR MASCOTA POR ID
+
+![image](https://github.com/user-attachments/assets/2303b07b-2bb8-41c2-aea6-ff36b1cf25a7)
+
+### ACTUALIZAR UNA MASCOTA EXISTENTE
+
+![image](https://github.com/user-attachments/assets/d651e646-de72-4136-acc3-14470aeb73be)
+
+### BUSCAR MASCOTA POR ESTADO
+
+![image](https://github.com/user-attachments/assets/fe8952e4-5394-4ccb-842d-6b85db0e2607)
+
 
 Reporte estándar de Gradle
 

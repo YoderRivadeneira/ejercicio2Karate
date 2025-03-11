@@ -43,7 +43,7 @@ jobs:
 
       # 6. Subir reportes de Karate
       - name: Upload Karate Reports
-        uses: actions/upload-artifact@v4  # Actualizado de v3 a v4
+        uses: actions/upload-artifact@v3
         with:
           name: karate-reports
           path: build/karate-reports/

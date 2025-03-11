@@ -1,13 +1,15 @@
 Feature: Añadir una mascota a la tienda
 
   @testQA
-  Scenario: Crear una nueva mascota
+  Scenario Outline: Crear una nueva mascota
     Given url urlBase + '/pet'
-    And request read('../data/add_pet_data.json')
+    And request { "id": <id>, "name": "<name>", "status": "<status>" }
     When method POST
     Then status 200
-    * print 'Response:', response
-    * karate.write(response, 'src/test/java/nttdata/petstore/data/createdPetResponse.json')
-    * def idMascota = response.id
-    * karate.set('idMascota', idMascota)
-    * print 'Archivo creado con el ID:', idMascota
+    * print 'Mascota creada:', response
+    * karate.write(response, 'src/test/java/nttdata/petstore/data/createdPetResponse_<id>.json')
+
+    Examples:
+      | id           | name  | status    |
+      | 88888888888  | p333  | available |
+      | 9999999      | p444  | available |

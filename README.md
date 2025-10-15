@@ -2,6 +2,7 @@ Nota: Para visualizar de manera correcta todas las imágenes de este instructivo
 
 
 
+
 # 🐾 Ejercicio2Karate - API de PetStore
 
 Este proyecto realiza pruebas funcionales automatizadas de la API [Swagger Petstore](https://petstore.swagger.io/). El flujo implementado cubre las siguientes funcionalidades:
@@ -185,4 +186,5 @@ Descarga el artefacto karate-reports que incluye el reporte generado.
 📦 Datos de Prueba
 
 Los datos de las pruebas se encuentran en archivos JSON dentro de la carpeta data. 
+
 

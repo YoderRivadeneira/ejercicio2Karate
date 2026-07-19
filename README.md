@@ -158,7 +158,7 @@ Resultados agregados por clase.
 Estado final de las pruebas.
 ```
 
-🤖 Integración Continua (CI/CD)
+## 🤖 Integración Continua (CI/CD)
 
 El proyecto está configurado con GitHub Actions para ejecutar automáticamente las pruebas cada vez que se realiza un push al repositorio, además genera los resportes como artefactos para poder visualizarlos en cada CICD.
 

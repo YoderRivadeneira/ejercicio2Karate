@@ -1,7 +1,6 @@
 plugins {
     id 'java'
 }
-
 group = 'nttdata.petstore'
 version = '1.0-SNAPSHOT'
 

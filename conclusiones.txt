@@ -6,7 +6,7 @@
    - Se implementaron 5 pruebas funcionales clave para la API de PetStore:
      - **Añadir una mascota a la tienda:** La prueba más larga (2.754s), ya que incluye la creación de un nuevo registro en la API.
      - **Consultar la mascota ingresada previamente (Búsqueda por ID):** Consulta eficiente con una duración de 0.657s.
-     - **Actualizar el nombre de la mascota y el estatus de la mascota a “sold”:** Prueba rápida con un tiempo de 0.638s.
+     - **Actualizar el nombre de la mascota y el estatus de la mascota a "sold":** Prueba rápida con un tiempo de 0.638s.
      - **Consultar la mascota modificada por estatus (Búsqueda por estatus):** Ejecución en 0.613s.
      - **Eliminar la mascota creada durante el test (Limpieza):** Proceso de limpieza con 1.101s.
 
@@ -52,4 +52,3 @@
 | Actualizar la mascota | Cambiar nombre y estatus | 0.638 | ✅ Exitosa |
 | Consultar por estatus | Buscar por status "sold" | 0.613 | ✅ Exitosa |
 | Eliminar mascota creada | Limpieza final | 1.101 | ✅ Exitosa |
-

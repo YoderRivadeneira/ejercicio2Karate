@@ -1,4 +1,4 @@
-Nota: Para visualizar de manera correcta todas las imágenes de este instructivo se recomienda estar logeado en github, ya que si se visualiza el readme sin estar logeado en git, puede ser que las imágenes no se visualicen correctamente.
+Nota: Para visualizar de manera correcta todas las imágenes de este instructivo se recomienda estar logeado en github, ya que si se visualiza el readme sin estar logeado en git, puede ser que las imágenes no carguen correctamente.
 
 
 
@@ -9,7 +9,7 @@ Este proyecto realiza pruebas funcionales automatizadas de la API [Swagger Petst
 
 1. **Añadir una mascota a la tienda.**
 2. **Consultar la mascota ingresada previamente (Búsqueda por ID).**
-3. **Actualizar el nombre de la mascota y el estatus de la mascota a “sold”.**
+3. **Actualizar el nombre de la mascota y el estatus de la mascota a "sold".**
 4. **Consultar la mascota modificada por estatus (Búsqueda por estatus).**
 5. **Eliminar la mascota creada como parte de la limpieza final.**
 
@@ -160,7 +160,7 @@ Estado final de las pruebas.
 
 ## 🤖 Integración Continua (CI/CD)
 
-El proyecto está configurado con GitHub Actions para ejecutar automáticamente las pruebas cada vez que se realiza un push al repositorio, además genera los resportes como artefactos para poder visualizarlos en cada CICD.
+El proyecto está configurado con GitHub Actions para ejecutar automáticamente las pruebas cada vez que se realiza un push al repositorio, además genera los resportes como artefactos para poder descargarlos y visualizarlos.
 
 ![image](https://github.com/user-attachments/assets/b8bc23bc-8456-4285-9207-65ec4f35e820)
 

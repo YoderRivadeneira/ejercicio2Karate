@@ -1,6 +1,6 @@
 Nota: Para visualizar de manera correcta todas las imágenes de este instructivo se recomienda estar logeado en github, ya que si se visualiza el readme sin estar logeado en git, puede ser que las imágenes no carguen correctamente.
 
-
+## EL PROYECTO CUMPLE CON TODOS LOS REQUISITOS + UN PLUS QUE ES CI/CD CON GitHub Actions.
 
 
 # 🐾 Ejercicio2Karate - API de PetStore
@@ -104,7 +104,8 @@ Después de ejecutar las pruebas, puedes encontrar el reporte detallado en la ca
 build/karate-reports/karate-summary.html
 ```
 
-![image](https://github.com/user-attachments/assets/8d999ab2-4000-4533-8a13-aa70b05b80b8)
+<img width="1356" height="407" alt="image" src="https://github.com/user-attachments/assets/0ed180ef-be56-4bd6-bffe-09278eedf8df" />
+
 
 ![image](https://github.com/user-attachments/assets/5fb1d163-ba8b-47bc-b3b2-b37be1228ae2)
 
@@ -122,23 +123,28 @@ Respuestas y errores encontrados.
 
 ### AGREGAR UNA NUEVA MASCOTA
 
-![image](https://github.com/user-attachments/assets/abb04510-f6a7-4a48-a89c-9b941c73eea1)
+<img width="1358" height="525" alt="image" src="https://github.com/user-attachments/assets/51bdbc61-dbcc-4242-9cdd-4b36c3b9715c" />
+
 
 ### BUSCAR MASCOTA POR ID
 
-![image](https://github.com/user-attachments/assets/2303b07b-2bb8-41c2-aea6-ff36b1cf25a7)
+<img width="1357" height="603" alt="image" src="https://github.com/user-attachments/assets/946852e4-5ab2-49a1-aa6a-386489255ed9" />
 
 ### ACTUALIZAR UNA MASCOTA EXISTENTE
 
-![image](https://github.com/user-attachments/assets/d651e646-de72-4136-acc3-14470aeb73be)
+<img width="1364" height="570" alt="image" src="https://github.com/user-attachments/assets/a9e68b1a-87f3-4150-865c-994bd44be0a0" />
+
 
 ### BUSCAR MASCOTA POR ESTADO
 
-![image](https://github.com/user-attachments/assets/fe8952e4-5394-4ccb-842d-6b85db0e2607)
+<img width="1359" height="511" alt="image" src="https://github.com/user-attachments/assets/27b1b856-da76-421a-8463-59fc9de5bb8e" />
+
 
 ### LIMPIEZA DE DATOS INSERTADOS DURANTE EL TEST
 
-![image](https://github.com/user-attachments/assets/6266dc41-5b35-44f1-81b7-e6cd13f5101d)
+<img width="1350" height="611" alt="image" src="https://github.com/user-attachments/assets/0112ae1a-6c84-4cef-ae50-d51c62481524" />
+
+
 
 Reporte estándar de Gradle
 
@@ -148,7 +154,8 @@ Adicionalmente, Gradle genera un reporte en:
 build/reports/tests/test/index.html
 ```
 
-![image](https://github.com/user-attachments/assets/a4e53ff1-4ad1-4bd5-913a-a175cd2e01c0)
+<img width="950" height="580" alt="image" src="https://github.com/user-attachments/assets/db6a331e-1b8b-43fa-8f89-a1fce877b96a" />
+
 
 
 Este reporte muestra:
@@ -163,19 +170,21 @@ Estado final de las pruebas.
 
 El proyecto está configurado con GitHub Actions para ejecutar automáticamente las pruebas cada vez que se realiza un push al repositorio, además genera los resportes como artefactos para poder descargarlos y visualizarlos.
 
-![image](https://github.com/user-attachments/assets/b8bc23bc-8456-4285-9207-65ec4f35e820)
+<img width="1578" height="739" alt="image" src="https://github.com/user-attachments/assets/cba6a9f7-b9e0-4ea5-922f-b7efc8aae286" />
 
-![image](https://github.com/user-attachments/assets/4aeeb3c5-3ba9-4391-86b3-bbaedd1dfe9b)
+<img width="756" height="312" alt="image" src="https://github.com/user-attachments/assets/ec37c5a3-bbaf-444c-9ae3-43d41916d2ab" />
 
-![image](https://github.com/user-attachments/assets/dcd31476-f884-4ad5-84d8-b7e82661cf12)
+<img width="1477" height="790" alt="image" src="https://github.com/user-attachments/assets/2cdae99e-2c55-4feb-94cc-628c2ea8178e" />
 
+<img width="1500" height="825" alt="image" src="https://github.com/user-attachments/assets/78581ba4-357a-4640-a73c-a3bc9d64f2ef" />
 
 
 Ruta para los reportes en GitHub Actions:
 
-![image](https://github.com/user-attachments/assets/02dbb030-83bc-4a50-818a-7d1630f5d29d)
+<img width="1505" height="422" alt="image" src="https://github.com/user-attachments/assets/0bbbc9a7-b788-47a3-ac71-e835deaea9c0" />
 
-![image](https://github.com/user-attachments/assets/531afe84-5591-4354-8054-cfde4da99e7d)
+<img width="1497" height="751" alt="image" src="https://github.com/user-attachments/assets/a040233c-8bbe-4905-8e53-12b3a274f29a" />
+
 
 
 ```bash

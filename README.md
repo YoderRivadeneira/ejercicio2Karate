@@ -39,7 +39,7 @@ Nota: Asegurate de ejecutar este comando en la ruta del proyecto, es decir en la
 
 
 ```bash
-   ./gradlew wrapper --gradle-version 7.6.1
+./gradlew wrapper --gradle-version 7.6.1
 ```
 
 2️⃣ Verificar las dependencias

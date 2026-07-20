@@ -1,4 +1,4 @@
-name: Karate CI/CD with Allure Reports
+name: Karate CI/CD
 
 on:
   push:
@@ -41,31 +41,9 @@ jobs:
       - name: Run Karate Tests
         run: ./gradlew clean test
 
-      # 6. Generar reporte Allure
-      - name: Generate Allure Report
-        if: always()
-        run: ./gradlew allureReport
-
-      # 7. Subir reportes de Karate
+      # 6. Subir reportes de Karate
       - name: Upload Karate Reports
-        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: karate-reports
           path: build/karate-reports/
-
-      # 8. Subir reportes de Allure
-      - name: Upload Allure Report
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: allure-report
-          path: build/reports/allure-report/
-
-      # 9. Subir resultados de Allure para histórico
-      - name: Upload Allure Results
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: allure-results
-          path: build/allure-results/

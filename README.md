@@ -64,7 +64,8 @@ Si deseas ejecutar pruebas específicas, utiliza el runner definido en el proyec
 ```
 o ejecutar directamente desde el IDE con la opción "Run"
 
-![image](https://github.com/user-attachments/assets/85f28938-9aa6-4c31-91ad-7d949238d110)
+<img width="1409" height="859" alt="image" src="https://github.com/user-attachments/assets/f404784b-bc66-4a3e-b5e7-eda8b07071d7" />
+
 
 
 

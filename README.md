@@ -1,6 +1,6 @@
 Nota: Para visualizar de manera correcta todas las imágenes de este instructivo se recomienda estar logeado en github, ya que si se visualiza el readme sin estar logeado en git, puede ser que las imágenes no carguen correctamente.
 
-## EL PROYECTO CUMPLE CON TODOS LOS REQUISITOS + UN PLUS QUE ES CI/CD CON GitHub Actions y Disponibilizacion con DOCKER.
+## EL PROYECTO CUMPLE CON TODOS LOS REQUISITOS + UN PLUS QUE ES CI/CD CON GitHub Actions
 
 
 # 🐾 Ejercicio2Karate - API de PetStore
@@ -165,6 +165,8 @@ Resumen de las pruebas ejecutadas.
 Resultados agregados por clase.
 Estado final de las pruebas.
 ```
+
+#PLUS:  CI/CD CON GitHub Actions
 
 ## 🤖 Integración Continua (CI/CD)
 

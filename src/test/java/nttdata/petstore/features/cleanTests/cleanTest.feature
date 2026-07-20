@@ -2,7 +2,7 @@ Feature: Limpiar los registros insertados durante el test
 
   @testQA
   Scenario Outline: Eliminar la mascota creada para los tests
-    * def buildDataPath = karate.get('buildDataPath') || 'file:build/src/test/java/nttdata/petstore/data/'
+    * def buildDataPath = karate.get('buildDataPath') || 'file:build/src/test/java/devsu/petstore/data/'
     * def cleanBuildDataPath = buildDataPath.replace('file:', '')
     * def createdPet = read(buildDataPath + 'createdPetResponse_<id>.json')
     * def idMascota = createdPet.id

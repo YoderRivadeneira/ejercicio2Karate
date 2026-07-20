@@ -8,7 +8,7 @@ Feature: Consultar la mascota ingresada previamente (Búsqueda por ID)
     Then status 200
     And match response.id == createdPet.id
     * print 'Response:', response
-    * karate.write(response, 'src/test/java/nttdata/petstore/data/getByIdResponse_<id>.json')
+    * karate.write(response, 'src/test/java/devsu/petstore/data/getByIdResponse_<id>.json')
 
     Examples:
       | id           |

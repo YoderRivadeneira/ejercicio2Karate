@@ -7,7 +7,7 @@ Feature: Añadir una mascota a la tienda
     When method POST
     Then status 200
     * print 'Mascota creada:', response
-    * karate.write(response, 'src/test/java/nttdata/petstore/data/createdPetResponse_<id>.json')
+    * karate.write(response, 'src/test/java/devsu/petstore/data/createdPetResponse_<id>.json')
 
     Examples:
       | id           | name  | status    |

@@ -1,4 +1,4 @@
-package nttdata.petstore;
+package devsu.petstore;
 
 public class Main {
     public static void main(String[] args) {

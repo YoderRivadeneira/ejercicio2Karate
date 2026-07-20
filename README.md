@@ -60,7 +60,7 @@ Ejecuta todas las pruebas del proyecto con:
 Si deseas ejecutar pruebas específicas, utiliza el runner definido en el proyecto:
 
 ```bash
-./gradlew test --tests "nttdata.petstore.karateRunner"
+./gradlew test --tests "devsu.petstore.karateRunner"
 ```
 o ejecutar directamente desde el IDE con la opción "Run"
 
@@ -74,12 +74,12 @@ o ejecutar directamente desde el IDE con la opción "Run"
 src/
 ├── main/
 │   └── java/
-│       └── nttdata/
+│       └── devsu/
 │           └── petstore/
 │               └── Main.java         # Clase principal de main
 ├── test/  
 │   └── java/
-│       └── nttdata/
+│       └── devsu/
 │           └── petstore/
 │               ├── features/                # Escenarios de prueba escritos en Karate
 │               ├── data/                    # Datos de prueba utilizados en las pruebas

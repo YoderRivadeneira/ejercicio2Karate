@@ -2,7 +2,7 @@ Feature: Consultar la mascota modificada por estatus (Búsqueda por estatus)
 
   @testQA
   Scenario Outline: Buscar mascota por status
-    * def buildDataPath = karate.get('buildDataPath') || 'file:build/src/test/java/nttdata/petstore/data/'
+    * def buildDataPath = karate.get('buildDataPath') || 'file:build/src/test/java/devsu/petstore/data/'
     * def cleanBuildDataPath = buildDataPath.replace('file:', '')
     * def updatedPetResponse = read(buildDataPath + 'updateResponse_<id>.json')
     * def idMascota = updatedPetResponse.id

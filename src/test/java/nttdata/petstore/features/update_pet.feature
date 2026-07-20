@@ -2,7 +2,7 @@ Feature: Actualizar el nombre y estatus de la mascota a “sold”
 
   @testQA
   Scenario Outline: Actualizar una mascota existente
-    * def buildDataPath = karate.get('buildDataPath') || 'build/src/test/java/nttdata/petstore/data'
+    * def buildDataPath = karate.get('buildDataPath') || 'build/src/test/java/devsu/petstore/data'
     * def idMascota = <id>
     * def updatedData = { "id": <id>, "name": "<name>", "status": "<status>" }
 
@@ -15,7 +15,7 @@ Feature: Actualizar el nombre y estatus de la mascota a “sold”
     And match response.status == "<status>"
 
     * print 'Mascota actualizada:', response
-    * karate.write(response,'src/test/java/nttdata/petstore/data/updateResponse_<id>.json')
+    * karate.write(response,'src/test/java/devsu/petstore/data/updateResponse_<id>.json')
 
     Examples:
       | id          | name  | status |

@@ -1,7 +1,7 @@
 plugins {
     id 'java'
 }
-group = 'nttdata.petstore'
+group = 'devsu.petstore'
 version = '1.0-SNAPSHOT'
 
 repositories {

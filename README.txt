@@ -29,6 +29,8 @@ Abre tu terminal/consola y ejecuta:
 
     git clone https://github.com/YoderRivadeneira/ejercicio2Karate
     cd ejercicio2Karate
+asignar permisos:
+    chmod +x ./gradlew
 
 PASO 2: CONFIGURAR GRADLE WRAPPER (Importante)
 -----------------------------------------------
@@ -156,14 +158,4 @@ Problema: Gradle download lento
 Solucion: El proyecto usa cache de Gradle. La primera ejecucion tardara mas.
     Las siguientes seran mas rapidas.
 
-================================================================================
-CONTACTO Y DOCUMENTACION
-================================================================================
 
-Para mas informacion sobre Karate Framework:
-https://github.com/karatelabs/karate
-
-Para mas informacion sobre Swagger Petstore:
-https://petstore.swagger.io/
-
-================================================================================
